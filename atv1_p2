@@ -1,0 +1,11 @@
+1) Descreva as motivações para o desenvolvimento de aplicações baseadas em internet ?
+R: Disponibilidade, Portabilidade, Segurança, Configuração, Integração, escalabilidade e conectividade. 
+
+2) Quais as funções de um servidor de aplicação?
+R: Armazena as páginas e arquivos, Cuida da segurança, Gerencia as conexões, Configura os sites
+
+3) Quais as diferenças das camadas de frontend e backend ?
+R: O frontend é a parte visual, com a qual o usuário interage diretamente, como telas, botões e formulários, geralmente desenvolvida com HTML, CSS e JavaScript e executada no navegador. 
+Já o backend é a parte responsável pelo processamento, regras de negócio, autenticação e comunicação com o banco de dados, rodando no servidor. 
+Enquanto o frontend cuida da experiência do usuário, o backend garante que os dados sejam processados e armazenados de forma segura e correta.
+
