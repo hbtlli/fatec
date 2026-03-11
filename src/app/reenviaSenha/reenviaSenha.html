@@ -1,12 +1,6 @@
 <h2>Recuperar Senha</h2>
 
-<p>Digite seu email para receber um link de recuperação de senha.</p>
+<label>Email cadastrado</label><br>
+<input type="email" [(ngModel)]="email" name="email"><br><br>
 
-<form>
-<label>Email:</label><br>
-<input type="email" placeholder="Digite seu email"><br><br>
-
-<button type="submit">Enviar link</button>
-</form>
-
-<p>Verifique sua caixa de entrada após enviar.</p>
+<button (click)="reenviar()">Reenviar senha</button>
