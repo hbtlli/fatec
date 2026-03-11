@@ -1,13 +1,13 @@
-<h2>Login do Cliente</h2>
+<h2>Login</h2>
 
 <form>
-  <label>Email:</label><br>
-  <input type="email" placeholder="Digite seu email"><br><br>
 
-  <label>Senha:</label><br>
-  <input type="password" placeholder="Digite sua senha"><br><br>
+<label>Email</label><br>
+<input type="email" [(ngModel)]="email" name="email"><br><br>
 
-  <button type="submit">Entrar</button>
+<label>Senha</label><br>
+<input type="password" [(ngModel)]="senha" name="senha"><br><br>
+
+<button type="button" (click)="login()">Entrar</button>
+
 </form>
-
-<p><a href="reenviaSenha">Esqueci minha senha</a></p>
